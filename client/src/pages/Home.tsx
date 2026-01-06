@@ -361,7 +361,7 @@ export default function Home() {
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-6 md:mb-8">
             <div>
-              <h3 className="font-semibold font-sora text-base mb-3">Fashion Studio AI</h3>
+              <h3 className="font-semibold font-sora text-base mb-3">Fashion Studio</h3>
               <p className="text-xs text-muted-foreground">
                 Empowering fashion brands with AI-driven virtual studios.
               </p>
@@ -400,7 +400,7 @@ export default function Home() {
 
           <div className="border-t border-border pt-6 md:pt-8 flex flex-col md:flex-row items-center justify-between gap-3 md:gap-4">
             <p className="text-xs text-muted-foreground">
-              © 2026 Fashion Studio AI. All rights reserved.
+              © 2026 Fashion Studio. All rights reserved.
             </p>
             <div className="flex gap-4 md:gap-6">
               <a href="#" className="text-xs text-muted-foreground hover:text-primary transition">
