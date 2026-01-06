@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
         <div className="w-full px-4 md:px-8 flex items-center justify-between h-16">
           <div className="text-lg md:text-2xl font-bold font-sora text-primary truncate flex-1">
-            Fashion Studio AI
+            Fashion Studio
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-sm font-medium hover:text-primary transition">
@@ -57,7 +57,7 @@ export default function Home() {
               </div>
               <div className="bg-secondary/50 rounded-lg p-3 md:p-4">
                 <p className="font-semibold text-primary text-sm md:text-base">Real Product Mix-and-Match (Boden)</p>
-                <p className="text-muted-foreground text-xs md:text-sm">Dress + Jacket + Boots + Socks</p>
+                <p className="text-muted-foreground text-xs md:text-sm">Dress + Jacket + Boots + Tights</p>
               </div>
             </div>
           </div>
@@ -339,12 +339,12 @@ export default function Home() {
               <p className="text-xs md:text-sm uppercase tracking-widest font-semibold mb-3 opacity-90">Investment Opportunity</p>
               <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
                 <div>
-                  <p className="text-3xl md:text-4xl font-bold font-sora">£250k</p>
+                  <p className="text-3xl md:text-4xl font-bold font-sora">£300k</p>
                   <p className="text-sm opacity-90 mt-1">Seed Investment</p>
                 </div>
                 <div className="text-xl md:text-2xl opacity-75">for</div>
                 <div>
-                  <p className="text-3xl md:text-4xl font-bold font-sora">20%</p>
+                  <p className="text-3xl md:text-4xl font-bold font-sora">25%</p>
                   <p className="text-sm opacity-90 mt-1">Equity</p>
                 </div>
               </div>
