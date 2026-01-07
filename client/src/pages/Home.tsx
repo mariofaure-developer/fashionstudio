@@ -211,7 +211,7 @@ export default function Home() {
       </section>
 
       {/* Infinite Personalization Section */}
-      <section className="py-8 md:py-12 bg-white">
+      {/* <section className="py-8 md:py-12 bg-white">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="mb-8 md:mb-10">
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold font-sora mb-2 md:mb-3">
@@ -260,7 +260,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Metrics Section */}
       <section id="metrics" className="py-8 md:py-12 bg-secondary/30 scroll-mt-16">
