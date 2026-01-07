@@ -63,6 +63,52 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Proven Track Record Section */}
+      <section className="py-8 md:py-12 bg-secondary/30">
+        <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-8 md:mb-10">
+              <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold font-sora mb-2 md:mb-3">
+                Proven Track Record
+              </h2>
+              <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
+                We built and scaled the original mix-and-match technology that Boden deployed globally for over a decade.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+              {/* Boden Partnership */}
+              <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-border">
+                <div className="mb-4">
+                  <p className="text-xs uppercase tracking-widest font-semibold text-primary mb-2">Global Success</p>
+                  <h3 className="text-2xl md:text-3xl font-bold font-sora"><a href="https://www.boden.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">Boden</a></h3>
+                </div>
+                <div className="space-y-3 text-sm md:text-base text-muted-foreground">
+                  <p><span className="font-semibold text-foreground">10+ Years</span> of continuous deployment</p>
+                  <p><span className="font-semibold text-foreground">6 Countries</span> – UK, US, Germany, France, Austria, Australia</p>
+                  <p><span className="font-semibold text-foreground">Hundreds of Thousands of Users</span> engaged with our technology</p>
+                  <p><span className="font-semibold text-foreground">30% AOV Lift</span> proven and sustained</p>
+                </div>
+              </div>
+
+              {/* AI v2 Evolution */}
+              <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg p-6 md:p-8 border border-primary/20">
+                <div className="mb-4">
+                  <p className="text-xs uppercase tracking-widest font-semibold text-primary mb-2">Next Evolution</p>
+                  <h3 className="text-2xl md:text-3xl font-bold font-sora">AI v2 Platform</h3>
+                </div>
+                <div className="space-y-3 text-sm md:text-base text-muted-foreground">
+                  <p>Scaling from <span className="font-semibold text-foreground">1 brand</span> to <span className="font-semibold text-foreground">1000+ brands</span></p>
+                  <p>Advanced AI enables <span className="font-semibold text-foreground">3-minute setup</span> vs. weeks of integration</p>
+                  <p>Expected <span className="font-semibold text-foreground">2-3x engagement lift</span> with AI-powered recommendations</p>
+                  <p>Proven founder with <span className="font-semibold text-foreground">decade of execution</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section id="features" className="py-8 md:py-12 bg-white scroll-mt-16">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
@@ -153,52 +199,6 @@ export default function Home() {
                   alt="Pink Socks"
                   className="h-32 md:h-40 object-contain"
                 />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Proven Track Record Section */}
-      <section className="py-8 md:py-12 bg-secondary/30">
-        <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-8 md:mb-10">
-              <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold font-sora mb-2 md:mb-3">
-                Proven Track Record
-              </h2>
-              <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
-                We built and scaled the original mix-and-match technology that Boden deployed globally for over a decade.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-              {/* Boden Partnership */}
-              <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-border">
-                <div className="mb-4">
-                  <p className="text-xs uppercase tracking-widest font-semibold text-primary mb-2">Global Success</p>
-                  <h3 className="text-2xl md:text-3xl font-bold font-sora"><a href="https://www.boden.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">Boden</a></h3>
-                </div>
-                <div className="space-y-3 text-sm md:text-base text-muted-foreground">
-                  <p><span className="font-semibold text-foreground">10+ Years</span> of continuous deployment</p>
-                  <p><span className="font-semibold text-foreground">6 Countries</span> – UK, US, Germany, France, Austria, Australia</p>
-                  <p><span className="font-semibold text-foreground">Hundreds of Thousands of Users</span> engaged with our technology</p>
-                  <p><span className="font-semibold text-foreground">30% AOV Lift</span> proven and sustained</p>
-                </div>
-              </div>
-
-              {/* AI v2 Evolution */}
-              <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg p-6 md:p-8 border border-primary/20">
-                <div className="mb-4">
-                  <p className="text-xs uppercase tracking-widest font-semibold text-primary mb-2">Next Evolution</p>
-                  <h3 className="text-2xl md:text-3xl font-bold font-sora">AI v2 Platform</h3>
-                </div>
-                <div className="space-y-3 text-sm md:text-base text-muted-foreground">
-                  <p>Scaling from <span className="font-semibold text-foreground">1 brand</span> to <span className="font-semibold text-foreground">1000+ brands</span></p>
-                  <p>Advanced AI enables <span className="font-semibold text-foreground">3-minute setup</span> vs. weeks of integration</p>
-                  <p>Expected <span className="font-semibold text-foreground">2-3x engagement lift</span> with AI-powered recommendations</p>
-                  <p>Proven founder with <span className="font-semibold text-foreground">decade of execution</span></p>
-                </div>
               </div>
             </div>
           </div>
