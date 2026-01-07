@@ -6,6 +6,10 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
         <div className="w-full px-4 md:px-8 flex items-center justify-between h-16">
+         <img src="/fashion_studio_icon_corrected.png" style="
+    height: 50px;
+    display: inline;
+"></img>
           <div className="text-lg md:text-2xl font-bold font-sora text-primary truncate flex-1">
             Fashion Studio
           </div>
