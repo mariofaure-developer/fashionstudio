@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { ArrowRight, TrendingUp, Rocket } from "lucide-react";
 
 export default function Home() {
@@ -65,7 +64,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-8 md:py-12 bg-white">
+      <section id="features" className="py-8 md:py-12 bg-white scroll-mt-28">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="mb-8 md:mb-10">
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold font-sora mb-2 md:mb-3">
@@ -206,8 +205,60 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Infinite Personalization Section */}
+      <section className="py-8 md:py-12 bg-white">
+        <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
+          <div className="mb-8 md:mb-10">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold font-sora mb-2 md:mb-3">
+              Infinite Personalization
+            </h2>
+            <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
+              Every brand can create unique, personalized outfit combinations. From casual to formal, our AI adapts to any style.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+            {/* Example 1 */}
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-full h-56 md:h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
+                <img
+                  src="/images/outfit-example-2.png"
+                  alt="Personalized Outfit Example 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <p className="text-sm font-semibold text-center">Original Model</p>
+            </div>
+
+            {/* Example 2 */}
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-full h-56 md:h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
+                <img
+                  src="/images/outfit-example-3.png"
+                  alt="Personalized Outfit Example 2"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <p className="text-sm font-semibold text-center">Personalized</p>
+            </div>
+
+            {/* Example 3 - Before Personalization */}
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-full h-56 md:h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
+                <img
+                  src="/images/outfit-before-personalization.png"
+                  alt="Before Personalization"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <p className="text-sm font-semibold text-center">Before Personalization</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Metrics Section */}
-      <section id="metrics" className="py-8 md:py-12 bg-secondary/30">
+      <section id="metrics" className="py-8 md:py-12 bg-secondary/30 scroll-mt-28">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-6 md:mb-8">
@@ -261,7 +312,7 @@ export default function Home() {
       </section>
 
       {/* Setup Section */}
-      <section id="setup" className="py-8 md:py-12 bg-background">
+      <section id="setup" className="py-8 md:py-12 bg-background scroll-mt-28">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-6 md:mb-8">
@@ -269,7 +320,7 @@ export default function Home() {
                 Launch in <span className="text-primary">3 Minutes</span>
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
-                One-click setup makes deployment effortless. Get your AI-powered fashion studio live in minutes, not months.
+                One-click setup makes deployment effortless. Get your AI-powered fashion studio live in minutes, not weeks.
               </p>
             </div>
 
