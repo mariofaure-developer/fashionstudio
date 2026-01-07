@@ -9,7 +9,7 @@ export default function Home() {
         <img
           src="/fashion_studio_icon_corrected.png"
           alt="Fashion Studio"
-          style={{ height: 50 }}
+          style={{ height: 42,marginRight:4 }}
         />
           <div className="text-lg md:text-2xl font-bold font-sora text-primary truncate flex-1">
             Fashion Studio
