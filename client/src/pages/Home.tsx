@@ -64,7 +64,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-8 md:py-12 bg-white scroll-mt-28">
+      <section id="features" className="py-8 md:py-12 bg-white scroll-mt-16">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="mb-8 md:mb-10">
             <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold font-sora mb-2 md:mb-3">
@@ -258,7 +258,7 @@ export default function Home() {
       </section>
 
       {/* Metrics Section */}
-      <section id="metrics" className="py-8 md:py-12 bg-secondary/30 scroll-mt-28">
+      <section id="metrics" className="py-8 md:py-12 bg-secondary/30 scroll-mt-16">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-6 md:mb-8">
@@ -312,7 +312,7 @@ export default function Home() {
       </section>
 
       {/* Setup Section */}
-      <section id="setup" className="py-8 md:py-12 bg-background scroll-mt-28">
+      <section id="setup" className="py-8 md:py-12 bg-background scroll-mt-16">
         <div className="w-full px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-6 md:mb-8">
