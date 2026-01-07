@@ -223,7 +223,6 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
-            {/* Example 1 */}
             <div className="flex flex-col items-center gap-3">
               <div className="w-full h-56 md:h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
                 <img
@@ -235,7 +234,6 @@ export default function Home() {
               <p className="text-sm font-semibold text-center">Original Model</p>
             </div>
 
-            {/* Example 2 */}
             <div className="flex flex-col items-center gap-3">
               <div className="w-full h-56 md:h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
                 <img
@@ -247,7 +245,6 @@ export default function Home() {
               <p className="text-sm font-semibold text-center">Personalized</p>
             </div>
 
-            {/* Example 3 - Before Personalization */}
             <div className="flex flex-col items-center gap-3">
               <div className="w-full h-56 md:h-64 bg-gradient-to-br from-primary/5 to-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
                 <img
