@@ -85,7 +85,7 @@ export default function Home() {
               {/* Boden Partnership */}
               <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-border">
                 <div className="mb-4">
-                  <p className="text-xs uppercase tracking-widest font-semibold text-primary mb-2">Global Success</p>
+                  <p className="text-xs uppercase tracking-widest font-semibold text-primary mb-2">Proven commercial traction</p>
                   <h3 className="text-2xl md:text-3xl font-bold font-sora"><a href="https://www.boden.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition">Boden</a></h3>
                 </div>
                 <div className="space-y-3 text-sm md:text-base text-muted-foreground">
